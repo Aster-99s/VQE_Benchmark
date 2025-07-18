@@ -198,14 +198,6 @@ simulator_config = {
 }
 ```
 
-### Analysis Customization
-
-```python
-# Custom analysis parameters
-python plot.py --style publication --format pdf --dpi 300
-```
-
----
 
 ## 📖 Documentation
 
@@ -255,7 +247,7 @@ We welcome contributions from the quantum computing community!
 
 ```bash
 # Fork the repository and clone your fork
-git clone https://github.com/your-username/quantum-vqe-benchmark.git
+git clone https://github.com/Aster-99s/VQE_Benchmark.git
 
 # Create a virtual environment
 python -m venv vqe-env
@@ -282,11 +274,11 @@ python -m pytest tests/
 If you use this framework in your research, please cite:
 
 ```bibtex
-@software{quantum_vqe_benchmark_2024,
-    title={Quantum VQE Benchmarking Framework: A Comprehensive Suite for Variational Quantum Eigensolver Analysis},
-    author={[Author Names]},
-    year={2024},
-    url={https://github.com/your-username/quantum-vqe-benchmark},
+@software{quantum_vqe_benchmark_2025,
+    title={Quantum VQE Benchmarking Framework: A Comprehensive Suite for Optimizer Analysis Against Variational Quantum Eigensolver},
+    author={Adil Berkani},
+    year={2025},
+    url={https://github.com/Aster-99s/VQE_Benchmark},
     doi={10.xxxx/xxxxxx},
     note={Open-source framework for quantum algorithm benchmarking}
 }
@@ -311,9 +303,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- 📧 **Contact**: [your-email@university.edu]
-- 🐦 **Twitter**: [@QuantumVQE](https://twitter.com/QuantumVQE)
-- 📱 **Discussions**: [GitHub Discussions](https://github.com/your-username/quantum-vqe-benchmark/discussions)
+- 📧 **Contact**: [adelberkani@gmail.com]
+- 📱 **Discussions**: [GitHub Discussions](https://github.com/Aster-99s/VQE_Benchmark/discussions)
 - 📊 **Results Database**: [Benchmark Database](https://vqe-benchmarks.org)
 
 ---
