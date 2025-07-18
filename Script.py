@@ -15,8 +15,7 @@ from qiskit_nature.second_q.transformers import ActiveSpaceTransformer
 from qiskit_nature.second_q.circuit.library import HartreeFock
 from qiskit_algorithms.minimum_eigensolvers import NumPyMinimumEigensolver
 from qiskit_algorithms.minimum_eigensolvers.minimum_eigensolver import MinimumEigensolverResult
-from qiskit_ibm_runtime.fake_provider import FakeCairoV2, FakeBelem
-from fez import FakeFez
+from qiskit_ibm_runtime.fake_provider import FakeCairoV2, FakeBelem, FakeFez
 from qiskit_ibm_runtime import EstimatorV2,QiskitRuntimeService
 from qiskit.transpiler import PassManager
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
@@ -25,8 +24,6 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Import the AQNGD optimizer
-from AQNGDOptimizer import AQNGDOptimizer
 
 mpl.use('Agg')
 
@@ -45,7 +42,7 @@ class VQEOptimizer:
             ansatz_reps (int): Number of repetitions in EfficientSU2 ansatz
             entanglement (str): Entanglement strategy for EfficientSU2 ('linear', 'full', etc.)
             backend: Quantum backend for simulation
-            optimizer (str): Optimizer to use ('BFGS', 'POWELL', 'COBYLA', 'SLSQP', 'AQNGD')
+            optimizer (str): Optimizer to use ('BFGS', 'POWELL', 'COBYLA', 'SLSQP')
             optimizer_options (dict): Additional options for the optimizer
             max_iter (int): Maximum iterations for optimizer
             shots (int): Number of shots for estimation (None for exact)
@@ -443,55 +440,6 @@ class VQEOptimizer:
                     
                     # Since SPSA doesn't return nfev directly, use our tracked value
                     nfev = self.circuit_evaluations
-                elif self.optimizer == 'AQNGD':
-                    # Initialize AQNGD optimizer with options from config
-                    max_k = options.get('max_k', 10)
-                    beta = options.get('beta', 1.0) 
-                    alpha = options.get('alpha', 0.01)
-                    tol = options.get('tol', 1e-6)
-                    
-                    aqngd = AQNGDOptimizer(
-                        max_iter=self.max_iter,
-                        max_k=max_k,
-                        beta=beta,
-                        alpha=alpha,
-                        tol=tol
-                    )
-                    self.reduced_problem.interpret_exp_val = self._interpret_exp_val
-
-                    # Call AQNGD minimize method with special arguments
-
-                    result = aqngd.minimize(
-                        cost_function=self._energy_cost_function,
-                        initial_params=current_params,
-                        ansatz=self.ansatz,
-                        qubit_op=self.qubit_op,
-                        estimator=self.estimator,
-                        backend=self.backend,
-                        molecule=self.reduced_problem
-                    )
-                    
-                    # Extract parameters, value, and circuit evaluation count
-                    opt_params = result.x
-                    opt_value = result.fun
-                    nfev = result.nfev
-                    
-                    # Import histories
-                    self.energy_history = aqngd.energy_history.copy()
-                    self.parameter_history = aqngd.params_history.copy()
-                    
-                    # Update best energy and parameters
-                    if self.energy_history:
-                        min_idx = np.argmin(self.energy_history)
-                        self.best_energy = self.energy_history[min_idx]
-                        self.best_parameters = self.parameter_history[min_idx].copy()
-                    
-                    # Track circuit evaluations and measurements
-                    self.circuit_evaluations = nfev
-                    if self.shots is not None:
-                        self.measurement_count = nfev * self.shots
-                    else:
-                        self.measurement_count = nfev
                 else:
                     raise ValueError(f"Unsupported optimizer: {self.optimizer}")
                 
@@ -735,7 +683,7 @@ def create_default_config():
             "optimization_level": 0,  # Transpiler optimization level (0-3)
             "shots": False  # null for exact simulation, or specify a number
         },
-        "optimizers": ["BFGS","L-BFGS-B", "POWELL", "COBYLA", "SLSQP","AQNGD"],
+        "optimizers": ["BFGS","L-BFGS-B", "POWELL", "COBYLA", "SLSQP"],
         "optimizer_options": {
             "BFGS": {"gtol": 1e-5 },
             "POWELL": {"xtol": 1e-5},
@@ -863,7 +811,7 @@ def run_from_config(config_file="vqe_config.json"):
         active_electrons, active_orbitals = active_spaces.get(molecule_name, (None, None))
         
         for optimizer_name in optimizers:
-            if optimizer_name not in ['BFGS',"L-BFGS-B", 'POWELL', 'COBYLA', 'SLSQP','SPSA','AQNGD']:
+            if optimizer_name not in ['BFGS',"L-BFGS-B", 'POWELL', 'COBYLA', 'SLSQP','SPSA']:
                 print(f"Skipping unsupported optimizer: {optimizer_name}")
                 continue
                 
