@@ -78,7 +78,7 @@ python Script.py --create-config
 python Script.py --config vqe_config.json
 
 # Generate analysis and visualizations  
-python plot.py
+python Plot.py
 
 # View results
 open plots/summary/optimizer_comparison.png
@@ -109,7 +109,7 @@ open plots/summary/optimizer_comparison.png
 ```
 quantum-vqe-benchmark/
 ├── 📄 Script.py              # Core VQE optimization engine
-├── 📊 plot.py                # Analysis and visualization framework  
+├── 📊 Plot.py                # Analysis and visualization framework  
 ├── ⚙️ AQNGDOptimizer.py      # Custom quantum-aware optimizer
 ├── 📋 requirements.txt       # Dependencies
 ├── 🔧 vqe_config.json       # Experiment configuration
