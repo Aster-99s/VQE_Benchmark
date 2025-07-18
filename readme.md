@@ -5,9 +5,9 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![Qiskit](https://img.shields.io/badge/Qiskit-1.4%2B-purple.svg)](https://qiskit.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxxx-blue)](https://doi.org/10.xxxx/xxxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16097456.svg)](https://doi.org/10.5281/zenodo.16097456)
 
-*A comprehensive benchmarking suite for Variational Quantum Eigensolver algorithms*
+*A comprehensive benchmarking suite for Optimizers Against Variational Quantum Eigensolver algorithms*
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Results](#-results) • [Contributing](#-contributing)
 
@@ -279,7 +279,7 @@ If you use this framework in your research, please cite:
     author={Adil Berkani},
     year={2025},
     url={https://github.com/Aster-99s/VQE_Benchmark},
-    doi={10.xxxx/xxxxxx},
+    doi={10.5281/zenodo.16097456},
     note={Open-source framework for quantum algorithm benchmarking}
 }
 ```
