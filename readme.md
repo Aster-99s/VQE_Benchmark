@@ -61,7 +61,7 @@ Built for researchers, educators, and quantum algorithm developers, this framewo
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/quantum-vqe-benchmark.git
+git clone https://github.com/Aster-99s/VQE_Benchmark.git
 cd quantum-vqe-benchmark
 
 # Install dependencies
@@ -110,9 +110,8 @@ open plots/summary/optimizer_comparison.png
 quantum-vqe-benchmark/
 ├── 📄 Script.py              # Core VQE optimization engine
 ├── 📊 Plot.py                # Analysis and visualization framework  
-├── ⚙️ AQNGDOptimizer.py      # Custom quantum-aware optimizer
 ├── 📋 requirements.txt       # Dependencies
-├── 🔧 vqe_config.json       # Experiment configuration
+├── 🔧 vqe_config.json       # Experiment configuration 
 ├── 📊 initial_params.csv    # Parameter initialization seeds
 ├── 📁 results/              # Generated benchmark data
 │   ├── 📁 BFGS/
@@ -199,7 +198,7 @@ simulator_config = {
 ```
 
 
-## 📖 Documentation
+## 📖 Documentation (To be added)
 
 ### Core Components
 
@@ -208,7 +207,7 @@ simulator_config = {
 - **[Configuration Guide](docs/configuration.md)**: Detailed parameter reference
 - **[Custom Optimizers](docs/custom_optimizers.md)**: Guide for implementing new algorithms
 
-### Tutorials
+### Tutorials 
 
 - 🎓 [Getting Started with VQE](tutorials/01_getting_started.md)
 - 🔬 [Molecular Benchmarking](tutorials/02_molecular_benchmarking.md)  
@@ -221,9 +220,9 @@ simulator_config = {
 
 <div align="center">
 
-| Convergence Analysis | Optimizer Comparison | Noise Impact |
+| Convergence error comparison SVS | Convergence error comparison FakeCairoV2 | Initialization comparison |
 |:---:|:---:|:---:|
-| ![Convergence](docs/images/convergence_example.png) | ![Comparison](docs/images/optimizer_comparison.png) | ![Noise](docs/images/noise_analysis.png) |
+| ![Convergence error comparison SVS](plots/error_comparison_log_svs_random_hadamard.png) | ![Convergence error comparison FakeCairoV2](plots/error_comparison_log_fakecairo_random_hadamard.png) | ![Initialization comparison](plots/initialization_comparison_Hadamard_fakecairo.png) |
 
 *Publication-ready visualizations generated automatically by the framework*
 
