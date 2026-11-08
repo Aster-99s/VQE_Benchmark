@@ -70,9 +70,18 @@ released with the 2025 MSc thesis (releases
 [v0.5.0-alpha](https://github.com/Aster-99s/VQE_Benchmark/releases/tag/v0.5.0-alpha)
 and [v1.0.0](https://github.com/Aster-99s/VQE_Benchmark/releases/tag/v1.0.0),
 archived on Zenodo under
-[10.5281/zenodo.16097455](https://doi.org/10.5281/zenodo.16097455)). It is kept for
+[10.5281/zenodo.16097456](https://doi.org/10.5281/zenodo.16097456) and
+[10.5281/zenodo.16108468](https://doi.org/10.5281/zenodo.16108468)). It is kept for
 reference and is not used by the paper. See its
 [README](legacy/thesis_2025/README.md).
+
+## Archives
+
+| What | DOI |
+|---|---|
+| This repository at v2.0.0, the version used in the paper | [10.5281/zenodo.24062702](https://doi.org/10.5281/zenodo.24062702) |
+| Per-run outputs of every study (183 MB zip) | [10.5281/zenodo.24063016](https://doi.org/10.5281/zenodo.24063016) |
+| All versions of this repository | [10.5281/zenodo.16097455](https://doi.org/10.5281/zenodo.16097455) |
 
 ## Citation
 

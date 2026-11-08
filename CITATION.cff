@@ -6,7 +6,15 @@ authors:
   - family-names: Berkani
     given-names: Adil
     affiliation: "Laboratory of Computer Science of Oran (LIO), University Oran 1"
+    orcid: "https://orcid.org/0009-0003-3814-1570"
 license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.16097455
+    description: All versions of this software
+  - type: doi
+    value: 10.5281/zenodo.24063016
+    description: Per-run outputs for the paper (dataset)
 repository-code: "https://github.com/Aster-99s/VQE_Benchmark"
 keywords:
   - variational quantum eigensolver
@@ -20,6 +28,7 @@ preferred-citation:
     - family-names: Berkani
       given-names: Adil
       affiliation: "Laboratory of Computer Science of Oran (LIO), University Oran 1"
+      orcid: "https://orcid.org/0009-0003-3814-1570"
     - family-names: Hamdadou
       given-names: Djamila
       affiliation: "Laboratory of Computer Science of Oran (LIO), University Oran 1"

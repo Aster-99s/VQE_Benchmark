@@ -7,7 +7,8 @@ originally released are the
 [v0.5.0-alpha](https://github.com/Aster-99s/VQE_Benchmark/releases/tag/v0.5.0-alpha)
 and [v1.0.0](https://github.com/Aster-99s/VQE_Benchmark/releases/tag/v1.0.0)
 releases, archived on Zenodo under
-[10.5281/zenodo.16097455](https://doi.org/10.5281/zenodo.16097455).
+[10.5281/zenodo.16097456](https://doi.org/10.5281/zenodo.16097456) and
+[10.5281/zenodo.16108468](https://doi.org/10.5281/zenodo.16108468).
 
 This code is superseded by `quantumlib/vqe/` at the repository root and is not used
 by the paper. It is kept so that the thesis results remain traceable.
