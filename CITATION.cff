@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "VQE_Benchmark: code and data for 'Ansatz Expressivity and the Limits of Optimizer Engineering in Variational Quantum Eigensolver Difficulty'"
+type: software
+authors:
+  - family-names: Berkani
+    given-names: Adil
+    affiliation: "Laboratory of Computer Science of Oran (LIO), University Oran 1"
+license: MIT
+repository-code: "https://github.com/Aster-99s/VQE_Benchmark"
+keywords:
+  - variational quantum eigensolver
+  - quantum chemistry
+  - optimizer benchmarking
+  - qiskit
+preferred-citation:
+  type: unpublished
+  title: "Ansatz Expressivity and the Limits of Optimizer Engineering in Variational Quantum Eigensolver Difficulty"
+  authors:
+    - family-names: Berkani
+      given-names: Adil
+      affiliation: "Laboratory of Computer Science of Oran (LIO), University Oran 1"
+    - family-names: Hamdadou
+      given-names: Djamila
+      affiliation: "Laboratory of Computer Science of Oran (LIO), University Oran 1"
+  year: 2026
