@@ -1,0 +1,271 @@
+label,molecule,repeat,error_mha,chem_acc,n_iters,wall_time_s,optimizer
+F_slsqp_noisy,H2,0,16.370781752260033,0,57,123.25776934623718,SLSQP
+A_baseline_noisy,H2,2,16.29982980268263,0,64,153.59822988510132,BFGS
+A_baseline_noisy,H2,3,17.735509245544456,0,67,161.30558133125305,BFGS
+A_baseline_noisy,H2,0,17.807890993574826,0,75,178.26995515823364,BFGS
+A_baseline_noisy,H2,4,15.877107498042387,0,75,179.75431036949158,BFGS
+F_slsqp_noisy,H2,2,14.074462175930336,0,72,140.64376544952393,SLSQP
+F_slsqp_noisy,H2,1,14.07557705570417,0,161,320.0504484176636,SLSQP
+A_baseline_noisy,H2,1,14.073515849396756,0,146,345.4642233848572,BFGS
+F_slsqp_noisy,H2,4,19.53182242185725,0,121,255.73294925689697,SLSQP
+A_baseline_noisy,LiH,4,20.10277041213815,0,78,435.23523807525635,BFGS
+F_slsqp_noisy,H2,3,17.61188141895542,0,136,282.2076301574707,SLSQP
+G_cobyla_noisy,H2,0,19.22375652346675,0,1000,109.60294079780579,COBYLA
+G_cobyla_noisy,H2,1,20.659277655880715,0,1000,110.42174100875854,COBYLA
+G_cobyla_noisy,H2,2,20.816377516020168,0,1000,111.31652402877808,COBYLA
+A_baseline_noisy,LiH,1,20.90013025755244,0,102,575.6092882156372,BFGS
+A_baseline_noisy,LiH,2,18.685701860490234,0,110,619.9653422832489,BFGS
+G_cobyla_noisy,H2,3,20.34334568209406,0,1000,106.50395393371582,COBYLA
+G_cobyla_noisy,H2,4,15.738174537775595,0,1000,105.34788656234741,COBYLA
+A_baseline_noisy,LiH,0,18.685866045230703,0,116,654.1270279884338,BFGS
+G_cobyla_noisy,LiH,0,17.93903837179034,0,1000,122.87950563430786,COBYLA
+F_slsqp_noisy,LiH,2,24.703465185363704,0,81,434.7525110244751,SLSQP
+G_cobyla_noisy,LiH,1,25.292189631715978,0,1000,130.23843026161194,COBYLA
+G_cobyla_noisy,LiH,2,20.942518258837417,0,1000,130.61779379844666,COBYLA
+G_cobyla_noisy,LiH,3,22.25363151807702,0,1000,133.5288999080658,COBYLA
+G_cobyla_noisy,LiH,4,36.55774245992394,0,1000,123.40840768814087,COBYLA
+F_slsqp_noisy,LiH,4,16.63859206674534,0,78,467.4836483001709,SLSQP
+F_slsqp_noisy,LiH,1,17.580213523571864,0,109,652.1915683746338,SLSQP
+F_slsqp_noisy,LiH,0,20.34444767340471,0,115,673.3189213275909,SLSQP
+F_slsqp_noisy,LiH,3,17.248501911780956,0,108,635.8912947177887,SLSQP
+I_plain_cg_noisy,H2,0,19.722689461065368,0,140,340.3001797199249,CG
+A_baseline_noisy,LiH,3,17.808175978010432,0,176,995.067307472229,BFGS
+I_plain_cg_noisy,H2,4,16.36568800404037,0,129,315.3629744052887,CG
+J_plain_tnc_noisy,H2,2,17.541539167261533,0,30,71.0275948047638,TNC
+J_plain_tnc_noisy,H2,1,46.11637128612078,0,41,97.73046684265137,TNC
+J_plain_tnc_noisy,H2,3,20.66457613000616,0,22,52.669926404953,TNC
+I_plain_cg_noisy,H2,3,17.84119013861951,0,178,432.9495379924774,CG
+I_plain_cg_noisy,H2,2,14.056489711728126,0,185,448.3873152732849,CG
+J_plain_tnc_noisy,H2,4,17.801700679470844,0,37,86.96171307563782,TNC
+J_plain_tnc_noisy,LiH,1,135.41849588176103,0,18,102.069571018219,TNC
+J_plain_tnc_noisy,LiH,4,54.89922532128677,0,15,82.62942910194397,TNC
+J_plain_tnc_noisy,H2,0,14.159020081041085,0,120,282.09281635284424,TNC
+J_plain_tnc_noisy,LiH,0,21.275734994152806,0,36,212.04172801971436,TNC
+I_plain_cg_noisy,H2,1,16.277881400039718,0,270,651.0168583393097,CG
+J_plain_tnc_noisy,LiH,3,55.27967796811506,0,31,191.0054268836975,TNC
+J_plain_tnc_noisy,LiH,2,41.65417426087448,0,41,248.0227575302124,TNC
+SPSA_noisy,H2,0,16.363118838992996,0,1000,294.0560085773468,SPSA
+SPSA_noisy,H2,1,19.706838578759324,0,1000,294.26573944091797,SPSA
+SPSA_noisy,H2,2,21.812740135954023,0,1000,292.817507982254,SPSA
+SPSA_noisy,H2,3,21.89193889642871,0,1000,297.5402090549469,SPSA
+SPSA_noisy,H2,4,16.289849809009162,0,1000,297.0794939994812,SPSA
+AQNGD_noisy,H2,1,16.192280520259672,0,18,15.99940299987793,AQNGD
+SPSA_noisy,LiH,0,22.744331999050793,0,1000,365.85622787475586,SPSA
+SPSA_noisy,LiH,1,38.97857979238939,0,1000,365.91917872428894,SPSA
+SPSA_noisy,LiH,2,58.148129798573756,0,1000,348.39213514328003,SPSA
+SPSA_noisy,LiH,4,20.626683385336797,0,1000,347.5309112071991,SPSA
+SPSA_noisy,LiH,3,23.452329689285456,0,1000,396.51692247390747,SPSA
+I_plain_cg_noisy,LiH,3,18.56456386978511,0,194,1158.2163932323456,CG
+I_plain_cg_noisy,LiH,0,26.261972654606502,0,248,1423.034274339676,CG
+AQNGD_noisy,H2,4,16.34189403756503,0,502,469.4176115989685,AQNGD
+AQNGD_noisy,H2,0,19.715417596313678,0,675,626.7644708156586,AQNGD
+I_plain_cg_noisy,LiH,4,21.023319001677088,0,230,1377.7134511470795,CG
+AQNGD_noisy,H2,2,19.779076502123296,0,653,607.3366944789886,AQNGD
+C_qng_noisy,H2,0,14.031882462194112,0,26,73.1939446926117,QNG {'lr': 1.0}
+C_qng_noisy,H2,1,14.031474593983573,0,32,91.73058247566223,QNG {'lr': 1.0}
+C_qng_noisy,H2,3,15.944425139030827,0,44,124.72663307189941,QNG {'lr': 1.0}
+C_qng_noisy,H2,4,19.663496063526242,0,43,121.57041931152344,QNG {'lr': 1.0}
+AQNGD_noisy,H2,3,16.51677620222025,0,794,749.1496021747589,AQNGD
+AQNGD_noisy,LiH,1,24.79152394124018,0,565,686.3800358772278,AQNGD
+AQNGD_noisy,LiH,0,19.942423082842886,0,636,772.1171386241913,AQNGD
+AQNGD_noisy,LiH,3,19.78630256044145,0,684,821.7012124061584,AQNGD
+D_fubini_slsqp_default_noisy,H2,0,17.60865835379044,0,169,234.28705167770386,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+D_fubini_slsqp_default_noisy,H2,1,15.94531466721083,0,89,145.37434267997742,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+D_fubini_slsqp_default_noisy,H2,2,14.032679514646595,0,92,135.61113786697388,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+D_fubini_slsqp_default_noisy,H2,4,21.550782290733483,0,93,114.44798421859741,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+AQNGD_noisy,LiH,2,15.62359992824991,0,1000,1193.3569309711456,AQNGD
+D_fubini_slsqp_default_noisy,H2,3,17.586024426910374,0,179,283.1644194126129,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+AQNGD_noisy,LiH,4,26.06630932245313,0,1000,1196.3993957042694,AQNGD
+D_fubini_slsqp_default_noisy,LiH,3,19.011682691455256,0,51,227.49934887886047,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+I_plain_cg_noisy,LiH,1,16.182482290180822,0,468,2896.2230701446533,CG
+D_fubini_slsqp_default_noisy,LiH,2,20.668169280548376,0,119,553.3679490089417,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+I_plain_cg_noisy,LiH,2,15.927387791534464,0,488,2983.8255758285522,CG
+D_fubini_slsqp_default_noisy,LiH,1,15.918581378731922,0,149,678.8661026954651,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+D_fubini_slsqp_default_noisy,LiH,0,16.63928292663197,0,153,761.9707174301147,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+D_fubini_slsqp_tuned_noisy,LiH,3,20.850316247842393,0,37,227.73954033851624,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,H2,0,20.14152477962594,0,300,35.28832006454468,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,H2,1,18.531804060436528,0,300,35.221802949905396,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+D_fubini_slsqp_tuned_noisy,LiH,1,22.980202056504417,0,53,324.3677957057953,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,H2,2,19.067920246009564,0,300,35.91510057449341,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,H2,3,18.093480756506075,0,300,35.84269165992737,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,H2,4,19.719347590947844,0,300,34.96342968940735,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+D_fubini_slsqp_tuned_noisy,LiH,0,20.72363690876866,0,77,508.4815003871918,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,LiH,0,31.16972855240352,0,300,40.21523308753967,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,LiH,1,34.50872589979337,0,300,37.774848222732544,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,LiH,2,101.00022995395096,0,300,37.71123266220093,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,LiH,3,36.267498367839046,0,300,36.46988916397095,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+H_fubini_cobyla_tuned_noisy,LiH,4,44.81586615242694,0,300,39.71105694770813,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+D_fubini_slsqp_default_noisy,LiH,4,23.729733668010233,0,161,644.8374781608582,"FUBINI_SLSQP {'inner_maxiter': 15, 'regularization': 0.001}"
+D_fubini_slsqp_tuned_noisy,LiH,4,16.634740372441392,0,79,399.538902759552,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,H2,1,17.779361005645367,0,58,131.95686388015747,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+D_fubini_slsqp_tuned_noisy,LiH,2,15.918072983477138,0,115,604.6574981212616,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,H2,0,16.27626460326459,0,109,248.18903946876526,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,H2,4,14.032289874637893,0,90,204.89082551002502,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,H2,2,16.27687561040503,0,116,263.75249552726746,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,H2,3,14.03493872608852,0,213,480.3656232357025,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,LiH,1,25.39914841424551,0,67,364.5432436466217,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+C_qng_noisy,H2,2,19.53639427532483,0,1001,2685.030075073242,QNG {'lr': 1.0}
+L_fubini_tnc_noisy,H2,1,20.49817033180057,0,70,160.4038758277893,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+L_fubini_tnc_noisy,H2,0,16.405324317875667,0,156,357.6336770057678,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,LiH,4,20.60605258938164,0,104,594.9148008823395,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,LiH,0,20.63645556600857,0,133,784.1090006828308,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+L_fubini_tnc_noisy,H2,3,16.28217276902322,0,112,255.73850321769714,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,LiH,2,16.722403737312597,0,138,780.3550329208374,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+L_fubini_tnc_noisy,H2,4,17.910584074136704,0,83,195.64043021202087,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+L_fubini_tnc_noisy,H2,2,16.349722002869438,0,164,378.38355684280396,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+L_fubini_tnc_noisy,LiH,0,45.502507047145535,0,36,211.5784249305725,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+L_fubini_tnc_noisy,LiH,2,143.1234818449889,0,26,161.02449011802673,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+M_fubini_nm_noisy,H2,0,17.85307853783058,0,1009,103.51852679252625,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+L_fubini_tnc_noisy,LiH,1,45.410686205598516,0,46,270.7387297153473,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+M_fubini_nm_noisy,H2,1,18.86514090510305,0,1010,102.90517568588257,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,H2,2,14.234410434098344,0,1016,102.71332025527954,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,H2,3,18.43598315778361,0,1008,99.86712193489075,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,H2,4,20.530109941921282,0,1002,98.3864393234253,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,LiH,0,221.47832799052568,0,1011,141.66832327842712,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,LiH,1,246.8775396677101,0,1014,139.1757607460022,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,LiH,2,282.50506140486476,0,1024,144.49614834785461,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+M_fubini_nm_noisy,LiH,3,191.19172691482245,0,1012,142.35710167884827,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+D_fubini_slsqp_tuned_noisy,H2,0,17.793960180408686,0,52,87.05825066566467,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+M_fubini_nm_noisy,LiH,4,307.1071498093234,0,1014,140.77991461753845,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+D_fubini_slsqp_tuned_noisy,H2,1,16.283340870934857,0,52,77.88061547279358,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,HeH+,0,28.451684238784303,0,27,23.57344913482666,AQNGD
+D_fubini_slsqp_tuned_noisy,H2,2,18.108733943648758,0,54,87.37098240852356,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+K_fubini_cg_noisy,LiH,3,21.389727166343242,0,220,1277.7085225582123,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,HeH+,1,24.308325219430493,0,25,22.275787830352783,AQNGD
+D_fubini_slsqp_tuned_noisy,H2,4,19.600610319292944,0,62,96.05030632019043,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+D_fubini_slsqp_tuned_noisy,H2,3,19.53772809763987,0,80,138.25801610946655,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,HeH+,2,28.71795233509644,0,89,76.09516191482544,AQNGD
+L_fubini_tnc_noisy,LiH,4,20.9092673236162,0,98,598.2081708908081,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,HeH+,4,23.395021363442403,0,261,220.94946122169495,AQNGD
+AQNGD_generalize,BeH2,0,36.49401304973843,0,304,295.62236070632935,AQNGD
+AQNGD_generalize,BeH2,2,31.18933100303245,0,321,311.66438031196594,AQNGD
+L_fubini_tnc_noisy,LiH,3,22.8707972861395,0,154,898.0986216068268,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,HF,0,39.921179089162706,0,113,107.590341091156,AQNGD
+AQNGD_generalize,HeH+,3,18.44513934828651,0,742,624.2481682300568,AQNGD
+AQNGD_generalize,BeH2,3,31.26009111790573,0,682,652.5982980728149,AQNGD
+AQNGD_generalize,HF,4,54.87804307489341,0,230,221.56060791015625,AQNGD
+AQNGD_generalize,HF,2,52.14755017594541,0,650,619.088330745697,AQNGD
+AQNGD_generalize,BeH2,1,28.451849300692444,0,1000,957.4610521793365,AQNGD
+AQNGD_generalize,BeH2,4,30.45738006528076,0,1000,951.5311386585236,AQNGD
+AQNGD_generalize,HF,1,54.026704728443065,0,1000,944.8234958648682,AQNGD
+AQNGD_generalize,HF,3,46.26329714939459,0,1000,944.7077014446259,AQNGD
+FubiniSLSQP_generalize,HeH+,0,20.552737772113083,0,76,96.4130802154541,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,HeH+,2,22.3979675188124,0,80,120.210520029068,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,H2O,3,99.5013756562031,0,289,534.7521753311157,AQNGD
+FubiniSLSQP_generalize,HeH+,1,22.36820130939865,0,97,156.96628069877625,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,H2O,4,79.8945015968826,0,220,405.9955208301544,AQNGD
+FubiniSLSQP_generalize,HeH+,4,23.449570817863474,0,46,56.5071542263031,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,H2O,1,101.3227021484795,0,414,766.8162839412689,AQNGD
+FubiniSLSQP_generalize,HeH+,3,24.887598603616112,0,73,123.04425525665283,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,BeH2,2,38.89609195382526,0,48,207.50240397453308,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,BeH2,0,31.155897270084054,0,74,287.36573672294617,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,BeH2,1,25.101730990114035,0,61,251.76679158210754,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,BeH2,3,34.44118412219588,0,74,291.1864194869995,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,BeH2,4,36.06285277263943,0,64,261.128844499588,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,HF,0,57.21035276175712,0,61,195.67045617103577,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,HF,2,44.29904707521359,0,81,277.52934551239014,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,HF,1,44.71088436045534,0,85,306.8705108165741,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,HF,4,45.11129609349496,0,78,261.39147543907166,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,HF,3,37.5159378871075,0,107,291.17478227615356,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,H2O,2,72.69582904106642,0,59,401.86467576026917,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,H2O,0,84.34572043364597,0,1000,1840.7774376869202,AQNGD
+FubiniSLSQP_generalize,H2O,4,81.20191654433029,0,71,501.6482632160187,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,H2O,0,72.15930916576951,0,133,818.9667773246765,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+AQNGD_generalize,H2O,2,62.1277257644266,0,1000,1841.2935762405396,AQNGD
+FubiniSLSQP_generalize,H2O,3,77.21372179263142,0,103,710.450261592865,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniSLSQP_generalize,H2O,1,71.61441653784095,0,120,788.1920373439789,"FUBINI_SLSQP {'inner_maxiter': 10, 'regularization': 0.01}"
+C_qng_noisy,LiH,0,15.66927032800347,0,1001,6482.737115621567,QNG {'lr': 1.0}
+C_qng_noisy,LiH,1,17.04956380973588,0,1001,6480.514066696167,QNG {'lr': 1.0}
+C_qng_noisy,LiH,3,16.84742156903507,0,1001,6423.264401435852,QNG {'lr': 1.0}
+C_qng_noisy,LiH,2,19.935216447911408,0,1001,6472.553036689758,QNG {'lr': 1.0}
+FubiniNelderMead_generalize,HeH+,0,23.540463536390277,0,1016,97.51180362701416,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HeH+,1,24.49821920495232,0,1007,97.98281168937683,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HeH+,2,24.64871735037555,0,1000,97.32859826087952,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HeH+,3,23.034508338348303,0,1002,97.23076295852661,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HeH+,4,24.36160065339177,0,1003,98.32601380348206,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,BeH2,0,265.62199428098234,0,1013,118.58350801467896,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,BeH2,1,419.87636413311867,0,1015,118.26373195648193,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,BeH2,3,365.90661728648575,0,1005,116.71469116210938,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,BeH2,2,333.075740784734,0,1008,118.54098558425903,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+C_qng_noisy,LiH,4,17.04319844516089,0,1001,6459.410075902939,QNG {'lr': 1.0}
+FubiniNelderMead_generalize,BeH2,4,415.83357212590323,0,1015,118.67069983482361,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HF,0,639.9789930589748,0,1012,119.2154004573822,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HF,1,875.9053049581951,0,1022,119.6116235256195,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HF,2,1150.1378307476243,0,1020,118.4979350566864,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HF,3,831.8410948736243,0,1004,117.55982160568237,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,HF,4,530.2354103473874,0,1011,118.3080427646637,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,H2O,0,1441.781642965168,0,1034,167.50488185882568,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,H2O,1,1413.99329254034,0,1034,168.8742480278015,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,H2O,2,1633.138822386641,0,1018,165.88853216171265,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,H2O,3,1390.3477373624185,0,1032,167.8392550945282,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniNelderMead_generalize,H2O,4,1359.0636626277756,0,1034,168.7002432346344,"FUBINI_NELDER_MEAD {'inner_maxiter': 10, 'regularization': 0.01, 'simplex_size': 0.05}"
+FubiniCG_generalize,HeH+,0,20.44494294131116,0,135,302.20412397384644,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HeH+,2,18.184489923554814,0,132,295.3834867477417,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HeH+,1,22.322075205233993,0,152,342.3889558315277,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HeH+,3,23.271781406809744,0,181,405.8958065509796,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,BeH2,1,31.44387756256073,0,83,408.13375997543335,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,BeH2,2,22.025425453039205,0,93,451.7718050479889,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HeH+,4,20.426353780960582,0,244,542.6372556686401,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HF,4,45.004224556734584,0,83,406.4714992046356,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,BeH2,3,31.823077181302395,0,124,605.3454427719116,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HF,2,66.24058976012748,0,96,467.2469711303711,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,BeH2,4,22.026605749806194,0,146,708.28959441185,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,BeH2,0,25.6360274403864,0,168,820.8044877052307,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HF,3,38.89185606215051,0,113,552.4886274337769,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HF,0,42.595372281269306,0,146,708.8219537734985,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,HF,1,46.05890441277438,0,177,860.4994957447052,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+B_ring_multirestart_noisy,H2,1,16.27809124213453,0,239,518.2521829605103,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,H2,3,14.08058203169027,0,230,498.0492241382599,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,H2,2,15.923216350160807,0,252,542.3213212490082,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,H2,4,14.04851334251389,0,319,692.1588082313538,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,H2,0,15.867351012923248,0,394,851.5415277481079,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,LiH,1,12.568005270311211,0,180,902.4015734195709,RingEntangler + multi-restart BFGS (3x334)
+FubiniCG_generalize,H2O,3,91.17103265751325,0,150,1412.7570774555206,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,H2O,2,86.14115249692134,0,154,1443.8857383728027,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,H2O,4,87.0623615258097,0,135,1266.94633603096,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCG_generalize,H2O,1,56.418921379801645,0,196,1763.1772546768188,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+B_ring_multirestart_noisy,LiH,2,13.234245720863846,0,217,958.0355405807495,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,LiH,0,9.334601821607613,0,317,1413.5765159130096,RingEntangler + multi-restart BFGS (3x334)
+FubiniCG_generalize,H2O,0,62.143511113831096,0,213,1880.0111303329468,"FUBINI_CG {'inner_maxiter': 10, 'regularization': 0.01}"
+B_ring_multirestart_noisy,LiH,4,16.627251673654975,0,254,1007.352822303772,RingEntangler + multi-restart BFGS (3x334)
+B_ring_multirestart_noisy,LiH,3,12.474616051739496,0,344,1279.196048259735,RingEntangler + multi-restart BFGS (3x334)
+FubiniTNC_generalize,HeH+,0,21.26242312392357,0,40,54.44783544540405,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HeH+,3,23.624253399502138,0,46,62.113569498062134,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HeH+,2,26.01497381622586,0,78,104.65932822227478,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HeH+,1,20.762753119536903,0,128,170.10240173339844,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HeH+,4,20.5916376915658,0,94,125.6343641281128,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,BeH2,0,37.80437351041677,0,67,197.12540912628174,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,BeH2,1,39.93165569513302,0,68,201.06439590454102,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,BeH2,4,45.404243481305784,0,40,120.64602255821228,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,BeH2,3,26.83969258002783,0,111,335.5738546848297,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HF,1,38.97755283554716,0,68,209.70648884773254,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HF,3,462.84406989519766,0,15,50.52551555633545,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,BeH2,2,207.78381193651364,0,166,509.71731996536255,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HF,2,58.61399387150357,0,84,281.6048352718353,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HF,0,35.05375595555904,0,197,638.381584405899,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,HF,4,77.80728655183111,0,101,347.86943554878235,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,H2O,3,75.64291600303363,0,78,545.5493619441986,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,H2O,0,62.88228147661812,0,178,1242.6352288722992,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,H2O,4,471.66712931897337,0,72,500.207631111145,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,H2O,1,63.138303787866334,0,250,1680.9172196388245,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniTNC_generalize,H2O,2,117.73484242404209,0,1000,5850.004315376282,"FUBINI_TNC {'inner_maxiter': 10, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HeH+,1,18.15610141453483,0,971,197.69127917289734,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HeH+,3,22.549000823358867,0,1000,202.7475335597992,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HeH+,0,22.323910451648388,0,1000,204.69100713729858,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HeH+,2,22.458284110957294,0,1000,205.33540034294128,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HeH+,4,18.14729376661628,0,878,181.9367072582245,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,BeH2,0,25.479321765805807,0,1000,243.37264919281006,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,BeH2,2,33.13375584318656,0,1000,240.72243332862854,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,BeH2,1,38.91922944531778,0,1000,242.9708480834961,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,BeH2,3,35.45918696586803,0,1000,243.13792157173157,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HF,0,41.22605386714895,0,1000,228.06463599205017,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HF,1,512.5033193437503,0,1000,227.9755663871765,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,BeH2,4,35.99285558432008,0,1000,230.14680337905884,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HF,2,52.84748670997885,0,1000,167.5102777481079,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HF,3,41.48680701959506,0,1000,159.11891984939575,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,HF,4,75.68217426806712,0,1000,160.201429605484,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,H2O,0,56.504820865058036,0,1000,216.980788230896,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,H2O,1,65.74952943466883,0,1000,199.84811902046204,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,H2O,2,116.39966022006831,0,1000,188.53498530387878,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,H2O,3,68.24557094603279,0,1000,188.82913851737976,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"
+FubiniCOBYLA_generalize,H2O,4,151.4298265116878,0,1000,171.66929483413696,"FUBINI_COBYLA {'inner_maxiter': 100, 'regularization': 0.01}"

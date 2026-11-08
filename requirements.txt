@@ -1,20 +1,15 @@
-# Requirements file generated automatically
-# Generated on: 2025-05-12 06:24:46.566642
-
-matplotlib==3.9.0
-numpy==1.26.4
-pandas==2.2.2
-qiskit==1.4.2
-qiskit-aer==0.15.1
-qiskit-algorithms==0.3.1
-qiskit-ibm-provider==0.11.0
-qiskit-ibm-runtime==0.23.0
-qiskit-machine-learning==0.8.2
-qiskit-nature==0.7.2
-qiskit-qasm3-import==0.5.0
-qiskit-serverless==0.12.0
-qiskit-transpiler-service==0.4.3
-pyscf==2.8.0
-scipy==1.13.1
-seaborn==0.13.2
-tqdm==4.66.4
+# Environment used to produce the paper's results (Python 3.12, Linux / WSL2).
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5
+matplotlib==3.11.1
+rich==15.0.0
+qiskit==2.5.1
+qiskit-nature==0.8.0
+qiskit-algorithms==0.4.0
+qiskit-ibm-runtime==0.48.0
+qiskit-aer==0.17.2
+pyscf==2.14.0
+optuna==4.9.0
+pylatexenc==2.11
+pytest==9.1.1

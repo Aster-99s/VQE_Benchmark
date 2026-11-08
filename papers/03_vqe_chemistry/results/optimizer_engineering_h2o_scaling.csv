@@ -1,0 +1,11 @@
+label,molecule,ansatz,optimizer,repeat,error_mha,chem_acc,n_iters,wall_time_s
+M_ring_multirestart,H2O,RingEntangler,BFGS,1,6.165623367806461,0,169,536.9502313137054
+M_ring_multirestart,H2O,RingEntangler,BFGS,0,6.16143689019566,0,208,654.1183936595917
+M_ring_multirestart,H2O,RingEntangler,BFGS,2,6.965487519806857,0,213,665.5493302345276
+M_ring_multirestart,H2O,RingEntangler,BFGS,3,6.965426273481512,0,227,703.2309401035309
+N_efficientsu2_multirestart,H2O,EfficientSU2,BFGS,3,4.242628465078724,0,263,790.2450580596924
+N_efficientsu2_multirestart,H2O,EfficientSU2,BFGS,0,4.192845026196324,0,269,803.4410061836243
+N_efficientsu2_multirestart,H2O,EfficientSU2,BFGS,2,4.146437032659378,0,279,822.3709616661072
+N_efficientsu2_multirestart,H2O,EfficientSU2,BFGS,1,4.157222379845393,0,294,856.1310675144196
+M_ring_multirestart,H2O,RingEntangler,BFGS,4,3.891627492691896,0,178,419.3385965824127
+N_efficientsu2_multirestart,H2O,EfficientSU2,BFGS,4,4.247764615968208,0,269,544.1186022758484
