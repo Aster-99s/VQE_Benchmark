@@ -12,5 +12,6 @@ gradient-norm histories) under this directory as they go, one folder per
   labelled as a single trajectory.
 
 All tables and statistics in the paper are computed from the aggregated files in
-`../results/`. The remaining per-run outputs (parameter and gradient histories of
-every study, about 570 MB) are not stored in git.
+`../results/`. The full per-run outputs of every study (parameter and gradient
+histories included, 572 MB) are not stored in git; they are archived at
+[10.5281/zenodo.24063016](https://doi.org/10.5281/zenodo.24063016).

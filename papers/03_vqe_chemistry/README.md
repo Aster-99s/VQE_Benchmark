@@ -83,3 +83,7 @@ completeness and are not used by the paper.
 `raw_runs/main_sweep/<molecule>/<optimizer>/data/energy_repeat_1.json` holds the full
 energy trace of one repeat per main-sweep cell; `make_figures_v2.py` reads it for its
 single-trajectory panels. See [`raw_runs/README.md`](raw_runs/README.md).
+
+The full per-run outputs of every study (6,519 files, 572 MB) are archived at
+[10.5281/zenodo.24063016](https://doi.org/10.5281/zenodo.24063016). Unzip the
+archive inside this folder to restore `raw_runs/`.
